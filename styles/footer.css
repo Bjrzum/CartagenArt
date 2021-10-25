@@ -1,0 +1,43 @@
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+
+.social__link a{
+    color: #000;
+    font-size: 20px;
+}
+.link__contact__buy a{
+    color: #000;
+    font-size: 20px;
+
+}
+
+a .bx{
+    color: #000;
+    font-size: 30px;
+}
+a .bx:hover{
+    color:var(--claro);
+    
+}
+
+.social__link a:hover{
+    color:var(--claro);
+}
+.link__contact__buy a:hover{
+    color:var(--claro);
+
+}
+@media screen and (max-width:1000px) {
+
+    #footer{
+    display: inline-block;
+    padding-bottom: 3em;
+}
+
+}
